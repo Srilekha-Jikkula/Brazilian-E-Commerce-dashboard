@@ -16,9 +16,9 @@ Power Query
 ## Dataset Information
 The dataset used in this project is the Brazilian E-commerce public Dataset.
 It contains information about:
-1.Customers
-2.Geolocation
-3.Order-items
+*Customers
+*Geolocation
+*Order-items
 4.Order_Payments
 5.Order_reviews
 6.Orders
