@@ -16,15 +16,15 @@ Power Query
 ## Dataset Information
 The dataset used in this project is the Brazilian E-commerce public Dataset.
 It contains information about:
-*Customers
-*Geolocation
-*Order-items
-4.Order_Payments
-5.Order_reviews
-6.Orders
-7.Products
-8.Sellers
-9.Product_category_name_translation
+#### Customers
+#### Geolocation
+#### Order-items
+#### Order_Payments
+#### Order_reviews
+#### Orders
+#### Products
+#### Sellers
+#### Product_category_name_translation
 The dataset includes more than 100000 e-commerce transactions across Brazil.
 ## Business Questions Addressed
 1. Which product categories generate the highest revenue?
