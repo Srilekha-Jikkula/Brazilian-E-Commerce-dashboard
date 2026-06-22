@@ -32,6 +32,28 @@ The dataset includes more than 100000 e-commerce transactions across Brazil.
 3. What are the monthly saes trends?
 4. What is the average delivery time?
 5. Which payment methods are most frequently used?
+## Key Performance Indicators (KPIs)
+Total Revenue
+Total Orders
+Total Customers
+Average Delivery Time
+Customer Review Score
+Monthly Sales Growth
+## Dashboard Insights
+São Paulo contributes the highest number of orders and revenue.
+Credit card is the most preferred payment method among customers.
+Sales show noticeable spikes during festive and holiday seasons.
+Faster delivery times tend to result in higher customer review scores.
+## Dashboard Preview
 
+(Add your Power BI dashboard screenshot here)
 
+Example:
+## Project Outcome
 
+This dashboard enables businesses to monitor important sales metrics, identify high-performing regions and categories, and improve operational efficiency using data insights.
+
+## Author
+Jikkula Srilekha
+Aspiring Data Analyst
+Skills: SQL | Power BI | Excel | Python | Dada visualization | Data Modeling | Dashboard management
