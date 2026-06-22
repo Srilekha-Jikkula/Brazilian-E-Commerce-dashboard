@@ -33,17 +33,17 @@ The dataset includes more than 100000 e-commerce transactions across Brazil.
 4. What is the average delivery time?
 5. Which payment methods are most frequently used?
 ## Key Performance Indicators (KPIs)
-Total Revenue
-Total Orders
-Total Customers
-Average Delivery Time
-Customer Review Score
-Monthly Sales Growth
+1.Total Revenue
+2.Total Orders
+3.Total Customers
+4.Average Delivery Time
+5.Customer Review Score
+6.Monthly Sales Growth
 ## Dashboard Insights
-São Paulo contributes the highest number of orders and revenue.
-Credit card is the most preferred payment method among customers.
-Sales show noticeable spikes during festive and holiday seasons.
-Faster delivery times tend to result in higher customer review scores.
+1.São Paulo contributes the highest number of orders and revenue.
+2.Credit card is the most preferred payment method among customers.
+3.Sales show noticeable spikes during festive and holiday seasons.
+4.Faster delivery times tend to result in higher customer review scores.
 ## Dashboard Preview
 
 (Add your Power BI dashboard screenshot here)
