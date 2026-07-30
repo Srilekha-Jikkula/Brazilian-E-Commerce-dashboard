@@ -34,7 +34,7 @@ The dataset includes more than 100000 e-commerce transactions across Brazil.
 5. Which payment methods are most frequently used?
 ## Measures Created
 ### 1.Total Orders
-### Total Orders = DISTINCTCOUNT(olist_orders_dataset[order_id])
+###Total Orders = DISTINCTCOUNT(olist_orders_dataset[order_id])
 ### 2.Total Customers
 ### Total Customers = DISTINCTCOUNT(olist_customers_dataset[customer_id])
 ### 3.Average Review
