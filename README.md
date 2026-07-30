@@ -73,13 +73,23 @@ Total Products = DISTINCTCOUNT(olist_products_dataset[product_id])
 Average Order Value = DIVIDE([Total Sales],[Total Orders],0)
 #### 5.Average Review
 Avg Review = AVERAGE(olist_order_reviews_dataset[review_score])
-#### 6.Canellation rate %
+#### 6.Cancellation rate %
 Cancellation Rate % = 
 DIVIDE(
     [Cancelled Orders],
     [Total Orders],
     0
 )
+## Visualizations
+##### 1. Scatter chart
+Customer Rating VS Delivery Days
+#### 2.Donut chart 
+Payment Method Distribution
+#### 3. Combo chart(Line chart + Clustered Column Chart)
+Delivery Performance by Month
+#### 4.Donut Chart
+Order Status
+
 ## Dashboard Insights
 1.São Paulo contributes the highest number of orders and revenue.
 2.Credit card is the most preferred payment method among customers.
