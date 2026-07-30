@@ -16,22 +16,52 @@ Power Query
 ## Dataset Information
 The dataset used in this project is the Brazilian E-commerce public Dataset.
 It contains information about:
-#### Customers
-#### Geolocation
-#### Order-items
-#### Order_Payments
-#### Order_reviews
-#### Orders
-#### Products
-#### Sellers
-#### Product_category_name_translation
+1.Customers
+2.Geolocation
+3.Order-items
+4.Order_Payments
+5.Order_reviews
+6.Orders
+7.Products
+8.Sellers
+9.Product_category_name_translation
 The dataset includes more than 100000 e-commerce transactions across Brazil.
 ## Business Questions Addressed
 1. Which product categories generate the highest revenue?
 2. Which states contribute the most to sales?
-3. What are the monthly saes trends?
+3. What are the monthly sales trends?
 4. What is the average delivery time?
 5. Which payment methods are most frequently used?
+## Measures Created
+1.Total Orders
+Total Orders = DISTINCTCOUNT(olist_orders_dataset[order_id])
+2.Total Customers
+Total Customers = DISTINCTCOUNT(olist_customers_dataset[customer_id])
+3.Average Review
+Avg Review = AVERAGE(olist_order_reviews_dataset[review_score])
+4.Average Order Value
+Average Order Value = DIVIDE([Total Sales],[Total Orders],0)
+5.Total Sales
+Total Sales = SUM(olist_order_items_dataset[Total Price])
+6.Total Products
+Total Products = DISTINCTCOUNT(olist_products_dataset[product_id])
+7. Average Delivery Days
+Avg Delivery Days = AVERAGE(olist_orders_dataset[Delivery Days])
+8.Total Payment
+Total Payment = SUM(olist_order_payments_dataset[payment_value])
+9.Cancelled Orders
+Cancelled Orders = 
+CALCULATE(
+    COUNTROWS(olist_orders_dataset),
+    olist_orders_dataset[order_status] = "canceled"
+)
+10. Cancellation rate %
+Cancellation Rate % = 
+DIVIDE(
+    [Cancelled Orders],
+    [Total Orders],
+    0
+)
 ## Key Performance Indicators (KPIs)
 1.Total Revenue
 2.Total Orders
