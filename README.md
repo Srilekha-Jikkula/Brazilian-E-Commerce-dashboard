@@ -33,29 +33,29 @@ The dataset includes more than 100000 e-commerce transactions across Brazil.
 4. What is the average delivery time?
 5. Which payment methods are most frequently used?
 ## Measures Created
-### 1.Total Orders
+#### 1.Total Orders
 Total Orders = DISTINCTCOUNT(olist_orders_dataset[order_id])
-### 2.Total Customers
+#### 2.Total Customers
 Total Customers = DISTINCTCOUNT(olist_customers_dataset[customer_id])
-### 3.Average Review
+#### 3.Average Review
 Avg Review = AVERAGE(olist_order_reviews_dataset[review_score])
-### 4.Average Order Value
+#### 4.Average Order Value
 Average Order Value = DIVIDE([Total Sales],[Total Orders],0)
-### 5.Total Sales
+#### 5.Total Sales
 Total Sales = SUM(olist_order_items_dataset[Total Price])
-### 6.Total Products
+#### 6.Total Products
 Total Products = DISTINCTCOUNT(olist_products_dataset[product_id])
-### 7. Average Delivery Days
+#### 7. Average Delivery Days
 Avg Delivery Days = AVERAGE(olist_orders_dataset[Delivery Days])
-### 8.Total Payment
+#### 8.Total Revenue
 Total Payment = SUM(olist_order_payments_dataset[payment_value])
-### 9.Cancelled Orders
+#### 9.Cancelled Orders
 Cancelled Orders = 
 CALCULATE(
     COUNTROWS(olist_orders_dataset),
     olist_orders_dataset[order_status] = "canceled"
 )
-### 10. Cancellation rate %
+#### 10. Cancellation rate %
 Cancellation Rate % = 
 DIVIDE(
     [Cancelled Orders],
@@ -63,12 +63,23 @@ DIVIDE(
     0
 )
 ## Key Performance Indicators (KPIs)
-1.Total Revenue
-2.Total Orders
-3.Total Customers
-4.Average Delivery Time
-5.Customer Review Score
-6.Monthly Sales Growth
+#### 1.Total Revenue
+Total Revenue = SUM(olist_order_payments_dataset[payment_value])
+#### 2.Total Orders
+Total Orders = DISTINCTCOUNT(olist_orders_dataset[order_id])
+#### 3.Total Products
+Total Products = DISTINCTCOUNT(olist_products_dataset[product_id])
+#### 4.Average Order Value
+Average Order Value = DIVIDE([Total Sales],[Total Orders],0)
+#### 5.Average Review
+Avg Review = AVERAGE(olist_order_reviews_dataset[review_score])
+#### 6.Canellation rate %
+Cancellation Rate % = 
+DIVIDE(
+    [Cancelled Orders],
+    [Total Orders],
+    0
+)
 ## Dashboard Insights
 1.São Paulo contributes the highest number of orders and revenue.
 2.Credit card is the most preferred payment method among customers.
