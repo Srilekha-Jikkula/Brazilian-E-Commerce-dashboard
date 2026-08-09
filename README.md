@@ -37,34 +37,34 @@ The main objective is to build an interactive business intelligence dashboard th
 Rather than focusing only on creating visualizations, the project emphasizes the complete analytical process — understanding the business problem, preparing the data, creating a reliable data model, developing meaningful KPIs, analyzing trends, and converting the results into actionable business insights.
 
 ## Tools & Technologies Used:
-Power BI -Dashboard development and data visualization.
+__Power BI__ - Dashboard development and data visualization.
 
-Power Query-Data cleaning and transformation.
+__Power Query__ - Data cleaning and transformation.
 
-DAX – Calculated measures and analytical calculations.
+__DAX__ – Calculated measures and analytical calculations.
 
-Data Modeling – Relationships between transactional and dimensional data.
+__Data Modeling__ – Relationships between transactional and dimensional data.
 
-Olist Brazilian E-Commerce Dataset – Source data.
+__Olist Brazilian E-Commerce Dataset__ – Source data.
 
 ## Dataset Information:
 The major tables used in the project include:
 
 __Orders__ – Contains order-level information such as order ID, customer ID, order status, and order timestamps.
 
-Order Items – Contains individual items purchased within each order, including product, seller, price, and freight information.
+__Order Items__ – Contains individual items purchased within each order, including product, seller, price, and freight information.
 
-Order Payments – Contains payment-related information such as payment type, payment installments, and payment value.
+__Order Payments__ – Contains payment-related information such as payment type, payment installments, and payment value.
 
-Order Reviews – Contains customer review scores and review-related information.
+__Order Reviews__ – Contains customer review scores and review-related information.
 
-Products – Contains product-level attributes and product category information.
+__Products__ – Contains product-level attributes and product category information.
 
-Customers – Contains customer information including customer ID and customer location.
+__Customers__ – Contains customer information including customer ID and customer location.
 
-Sellers – Contains seller information and seller location.
+__Sellers__ – Contains seller information and seller location.
 
-Product Category Translation – Provides English translations for product category names.
+__Product Category Translation__ – Provides English translations for product category names.
 
 The dataset includes more than 100000 e-commerce transactions across Brazil.
 ## Business Questions Addressed
