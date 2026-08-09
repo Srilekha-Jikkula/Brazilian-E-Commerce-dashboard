@@ -1,19 +1,31 @@
-# Brazilian E-Commerce Dashboard Analysis.
+# Brazilian E-Commerce Sales Dashboard Analysis.
 # End to End Data Analysis Project using Power BI.
-## Project OverView
-This project focuses on analyzing BrazilianE-commerce saes data to uncover valuable business insights. The dashboard was built using Power BI to help stakeholders understand sales performance,Customer behaviour, deivery trends, and payment preferences.
-The goal of this project is to transform raw transactional data into meaningful visual insights that support data-driven decision-Making.
-## Dashboard Objective
-Anayze overall sales performance
-Identify top- Performing product categories
-Understand customer distribution across states
-Evalte delivery performance 
-Study payment method preferences
-Track monthly sales trends
-## Tools & Technologies Used
-Power BI - Data visualization and dashboard creation
-Power Query
-## Dataset Information
+
+## Project Introduction:
+
+The Brazilian E-Commerce Analytics project is an end-to-end Power BI data analytics project developed to analyze the sales performance, customer behavior, order fulfillment, product performance, and delivery experience of an online marketplace in Brazil.
+
+The project uses the Brazilian E-Commerce Public Dataset by Olist, which contains information related to customers, orders, order items, payments, products, sellers, reviews, and product categories. The dataset provides a real-world view of an e-commerce business and allows different aspects of the customer and order journey to be analyzed together.
+
+The primary objective of this project is to transform raw transactional data into meaningful business insights through data cleaning, transformation, data modeling, DAX calculations, KPI development, and interactive visualization using Microsoft Power BI.
+
+## Dashboard Objective:
+The main objective is to build an interactive business intelligence dashboard that enables stakeholders to monitor e-commerce performance, identify important trends and patterns, evaluate customer experience, and support data-driven business decisions.
+
+Rather than focusing only on creating visualizations, the project emphasizes the complete analytical process — understanding the business problem, preparing the data, creating a reliable data model, developing meaningful KPIs, analyzing trends, and converting the results into actionable business insights.
+
+## Tools & Technologies Used:
+Power BI -Dashboard development and data visualization.
+
+Power Query-Data cleaning and transformation.
+
+DAX – Calculated measures and analytical calculations.
+
+Data Modeling – Relationships between transactional and dimensional data.
+
+Olist Brazilian E-Commerce Dataset – Source data.
+
+## Dataset Information:
 The dataset used in this project is the Brazilian E-commerce public Dataset.
 It contains information about:
 1.Customers
