@@ -48,17 +48,24 @@ Data Modeling – Relationships between transactional and dimensional data.
 Olist Brazilian E-Commerce Dataset – Source data.
 
 ## Dataset Information:
-The dataset used in this project is the Brazilian E-commerce public Dataset.
-It contains information about:
-1.Customers
-2.Geolocation
-3.Order-items
-4.Order_Payments
-5.Order_reviews
-6.Orders
-7.Products
-8.Sellers
-9.Product_category_name_translation
+The major tables used in the project include:
+
+__Orders__ – Contains order-level information such as order ID, customer ID, order status, and order timestamps.
+
+Order Items – Contains individual items purchased within each order, including product, seller, price, and freight information.
+
+Order Payments – Contains payment-related information such as payment type, payment installments, and payment value.
+
+Order Reviews – Contains customer review scores and review-related information.
+
+Products – Contains product-level attributes and product category information.
+
+Customers – Contains customer information including customer ID and customer location.
+
+Sellers – Contains seller information and seller location.
+
+Product Category Translation – Provides English translations for product category names.
+
 The dataset includes more than 100000 e-commerce transactions across Brazil.
 ## Business Questions Addressed
 1. Which product categories generate the highest revenue?
