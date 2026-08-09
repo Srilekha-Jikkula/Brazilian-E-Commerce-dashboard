@@ -5,8 +5,8 @@
 
 The Brazilian E-Commerce Analytics project is an end-to-end Power BI data analytics project developed to analyze the sales performance, customer behavior, order fulfillment, product performance, and delivery experience of an online marketplace in Brazil.
 
-The project uses the Brazilian E-Commerce Public Dataset by Olist, which contains information related to customers, orders, order items, payments, products, sellers, reviews, and product categories. The dataset provides a real-world view of an e-commerce business and allows different aspects of the customer and order journey to be analyzed together.
-_The primary objective of this project is to transform raw transactional data into meaningful business insights through data cleaning, transformation, data modeling, DAX calculations, KPI development, and interactive visualization using Microsoft Power BI.
+The project uses the Brazilian E-Commerce Public Dataset by Olist, which contains information related to customers, orders, order items, payments, products, sellers, reviews, and product categories. The dataset provides a real-world view of an e-commerce business and allows different aspects of the customer and order journey to be analyzed together.<br>
+The primary objective of this project is to transform raw transactional data into meaningful business insights through data cleaning, transformation, data modeling, DAX calculations, KPI development, and interactive visualization using Microsoft Power BI.
 
 The analysis focuses on key business areas such as:
 Overall revenue and order performance.
