@@ -10,7 +10,6 @@ The project uses the Brazilian E-Commerce Public Dataset by Olist, which contain
 The primary objective of this project is to transform raw transactional data into meaningful business insights through data cleaning, transformation, data modeling, DAX calculations, KPI development, and interactive visualization using Microsoft Power BI.
 
 The analysis focuses on key business areas such as:
-
 Overall revenue and order performance.
 
 Average Order Value (AOV).
